@@ -44,11 +44,11 @@ https://api.500px.com/v1/photos?feature=popular&consumer_key=wB4ozJxTijCwNuggJvP
    >If you thought that the pictures are small, it does not matter, click on the "more images" button and there will be more of them;)
    
    #### Used stack of technologies ####
-    -react
-    -redux
-    -node.js
-    -express
-    -gulp
-    -axios
+   -react
+   -redux
+   -node.js
+   -express
+   -gulp
+   -axios
     
     Thanks;)
