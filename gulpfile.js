@@ -58,3 +58,4 @@ gulp.task('watchCSS', ['buildCSS'], function(){
     gulp.watch('./src/**/*.scss', ['buildCSS']);
 });
 gulp.task('default', ['watchJS', 'watchCSS']);
+gulp.task('build', ['buildCSS', 'buildJS' ]);
