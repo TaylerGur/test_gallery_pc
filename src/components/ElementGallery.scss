@@ -1,0 +1,22 @@
+.element_gallery{
+	width: 250px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	// border:1px solid red;
+	&_image{
+		width:250px;
+
+	}
+	&_author{
+	align-self: flex-end;
+
+	}
+	&_title{
+		color:gray;
+		font-size: 18px; 
+	}
+
+}

@@ -1,0 +1,14 @@
+.currentImage{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	&_image{
+		display: flex;
+		margin: 0 auto;
+		height: 100%;
+	}
+
+}
+

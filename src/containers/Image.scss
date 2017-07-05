@@ -1,0 +1,35 @@
+	*{
+		margin:0;
+		padding: 0;
+	}
+	.Image{
+
+	&_panel{
+
+		display: flex;
+		position: absolute;
+		flex-direction: row;
+		justify-content:space-between;
+		align-items: flex-start;
+		margin: 10px 0;
+		z-index: 10;
+		width: 100%;
+
+	}
+	&_btn{
+
+		margin: 0 10px;
+		padding: 5px;
+		background: white;
+		border:1px solid black;
+		text-decoration: none;
+		color: black;
+
+		&:focus{
+			border: 1px solid black;
+			outline: none;
+		}
+	}
+
+
+}
