@@ -25,11 +25,11 @@ https://api.500px.com/v1/photos?feature=popular&consumer_key=wB4ozJxTijCwNuggJvP
   #### Launching ####
   - Run the command "npm install" and "npm install gulp -g" 
   + For development:
-   - Start the server with the command "node server.js"
-   - Run gulp with a command "gulp"
+  - Start the server with the command "node server.js"
+  - Run gulp with a command "gulp"
   + For Production:
-   - Run gulp with a command "gulp build" (He will collect the whole project),
-   - Start the server with the command "node server.js".
+  - Run gulp with a command "gulp build" (He will collect the whole project),
+  - Start the server with the command "node server.js".
    
    #### How it works ####
    
