@@ -12,5 +12,43 @@ https://api.500px.com/v1/photos?feature=popular&consumer_key=wB4ozJxTijCwNuggJvP
 * Фотография
 - отображает одну фотографию с максимальной площадью
 
-## SOLUTION ##
 
+
+## SOLUTION ##
+      
+  #### Functional ####
+  - view mini image with title and author    
+  - view the image in full screen
+  - switching between images full screen
+  - add more images
+  
+  #### Launching ####
+  - Run the command "npm install" and "npm install gulp -g" 
+  + For development:
+   - Start the server with the command "node server.js"
+   - Run gulp with a command "gulp"
+  + For Production:
+   - Run gulp with a command "gulp build" (He will collect the whole project),
+   - Start the server with the command "node server.js".
+   
+   #### How it works ####
+   
+   - grid images
+   ![authorization png](https://github.com/TaylerGur/test_gallery_pc/blob/master/gallery.png)
+   >If you liked the picture and you want to see it in full screen, just click on it.
+   - full screnn image
+   ![authorization png](https://github.com/TaylerGur/test_gallery_pc/blob/master/fullScreen.png)
+   >You can move forward and backward through pictures. If you want to go back to the gallery, click the button "back".
+   - add more images
+   ![authorization png](https://github.com/TaylerGur/test_gallery_pc/blob/master/moreImages.png)
+   >If you thought that the pictures are small, it does not matter, click on the "more images" button and there will be more of them;)
+   
+   #### Used stack of technologies ####
+    -react
+    -redux
+    -node.js
+    -express
+    -gulp
+    -axios
+    
+    Thanks;)
