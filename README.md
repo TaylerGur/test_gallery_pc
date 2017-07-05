@@ -30,7 +30,9 @@ https://api.500px.com/v1/photos?feature=popular&consumer_key=wB4ozJxTijCwNuggJvP
   + For Production:
       - Run gulp with a command "gulp build" (He will collect the whole project),
       - Start the server with the command "node server.js".
-   
+  - Go to [http://localhost](http://localhost) - display the gallery or go to [http://localhost/image/18](http://localhost/image/18) - 
+Go to display a specific picture in full screen from the gallery.
+
    #### How it works ####
    
    - grid images
